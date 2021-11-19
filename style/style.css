@@ -196,5 +196,51 @@ ul{
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
-    color: #2D3748;
+    color: #a3abb9;
+}
+.lorem{
+    margin-bottom: 30px;
+}
+.lorem__body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F7FAFC;
+    padding: 0;
+}
+.lorem__content{
+    padding-left: 60px;
+}
+.lorem__title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.lorem__txt{
+    font-size: 16px;
+    line-height: 19px;
+    color: #718096;
+    margin-bottom: 30px;
+    max-width: 310px;
+    width: 100%;
+}
+.lorem__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lorem__info-txt{
+    font-size: 16px;
+    line-height: 19px;
+    color: #4A5568;
+}
+.lorem__info-link{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
 }
