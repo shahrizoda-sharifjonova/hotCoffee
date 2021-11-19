@@ -198,15 +198,13 @@ ul{
     line-height: 15px;
     color: #a3abb9;
 }
-.lorem{
-    margin-bottom: 30px;
-}
 .lorem__body{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #F7FAFC;
     padding: 0;
+    margin-bottom: 30px;
 }
 .lorem__content{
     padding-left: 60px;
@@ -228,6 +226,9 @@ ul{
     max-width: 310px;
     width: 100%;
 }
+.lorem{
+    margin-bottom: 42px;
+}
 .lorem__info{
     display: flex;
     justify-content: space-between;
@@ -243,4 +244,20 @@ ul{
     font-size: 16px;
     line-height: 19px;
     color: #000;
+}
+.lorem__container{
+    display: flex;
+    justify-content: flex-end;
+}
+.lorem__btn{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 9px 11px;
+    background: #6B46C1;
+    border-radius: 5px;
+}
+.lorem__arrow{
+    margin-left: 10px;
 }
