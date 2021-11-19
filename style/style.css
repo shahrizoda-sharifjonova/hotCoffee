@@ -67,3 +67,32 @@ ul{
     color: #454444;
     font-size: 20px;
 }
+.intro{
+    background: #FBFBFB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+.intro__body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro__title{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 72px;
+    color: #000;
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+}
+.intro__title-img{
+    transform: translateY(30%);
+}
+.intro__txt{
+    font-size: 30px;
+    line-height: 36px;
+    color: #4A5568;
+    margin-top: 20px;
+}
