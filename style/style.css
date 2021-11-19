@@ -151,3 +151,50 @@ ul{
     line-height: 15px;
     color: #2D3748;
 }
+.cards{
+    margin-bottom: 45px;
+}
+.cards__body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards__item{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(192, 189, 189, 0.25);
+    border-radius: 5px;
+}
+.cards__content{
+    padding: 15px;
+}
+.cards__title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3748;
+    margin: 15px 0;
+}
+.cards__txt{
+    font-size: 14px;
+    line-height: 17px;
+    color: #718096;
+    max-width: 265px;
+    width: 100%;
+    margin-bottom: 22px;
+}
+.cards__info-txt{
+    font-size: 12px;
+    line-height: 15px;
+    color: #718096;
+}
+.cards__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards__info-link{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2D3748;
+}
